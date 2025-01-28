@@ -8,15 +8,15 @@ Para monitorar o serviço de Conta Digital em produção, seguiria estas prátic
         - Erros do sistema (HTTP 5xx) e falhas de autenticação.
         - Operações de leitura/escrita no banco de dados.
     - Exemplo de campos em um log:
-        ```
+        ```json
         {
-        "timestamp": "2025-01-27T10:00:00Z",
-        "level": "ERROR",
-        "service": "Conta Digital",
-        "message": "Falha ao processar depósito",
-        "userId": "12345",
-        "transactionId": "abc123",
-        "error": "Timeout ao conectar à API bancária"
+            "timestamp": "2025-01-27T10:00:00Z",
+            "level": "ERROR",
+            "service": "Conta Digital",
+            "message": "Falha ao processar depósito",
+            "userId": "12345",
+            "transactionId": "abc123",
+            "error": "Timeout ao conectar à API bancária"
         }
         ```
 2. **Monitoramento de Métricas:**

@@ -6,4 +6,4 @@
 3. [Protótipo de API em NestJS]()
 4. [Monitoramento e Governança de Dados](04_monitoramento_e_governanca_de_dados.md)
 5. [Instruções de Deploy e Demonstração]()
-6. [Extras]()
+6. [Opcional](06_opcional.md)
